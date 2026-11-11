@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+     <header>
+        <div class="logo">
+            <a class="a1" href="../index.html">Mount Sleet</a><br>
+            <a class="a2" href="../index.html">Winter Tours</a>
+        </div>
+
+        <nav id="menu">
+            <a href="../pages/about.html">About</a>
+            <a href="./pages/trails.html">Trails</a>
+            <a href="../pages/blog.html">Blog</a>
+            <a class="contact" href="../contact.html">Contact</a>
+        </nav>
+
+        <div class="login">
+            <div class="user-icon">
+                <div class="user-head"></div>
+                <div class="user-body"></div>
+            </div>
+            <a href="../pages/login.html">Log In</a>
+        </div>
+         <button class="burger" onclick="openMenu()">☰</button>
+    </header>
+    <div class="div1">
+        <h2>Contact Us</h2>
+    </div>
+        <div class="div2">
+        <p>This is the space to share your business's contact information. Let people knows <span class="span1">the best ways to get in touch and encourage them to reach out.</span> </p>
+        </div>
+        <form>
+
+        <div class="name-box">
+
+            <div class="input-box">
+                <label>First name *</label>
+                <input type="text" required>
+            </div>
+
+            <div class="input-box">
+                <label>Last name *</label>
+                <input type="text" required>
+            </div>
+
+        </div>
+
+        <div class="input-box">
+            <label>Email *</label>
+            <input type="email" required>
+        </div>
+
+        <div class="input-box">
+            <label>Phone</label>
+            <input type="tel">
+        </div>
+
+        <div class="input-box message-box">
+            <label>Leave us a message</label>
+            <textarea></textarea>
+        </div>
+
+        <button class="submit">Submit</button>
+
+    </form>
+
+       <div class="div5">
+        <p class="adress">Address: 500 Terry Francine Street San Francisco, CA 94158</p>
+        <p class="mail">Mail: info@mysite.com</p>
+        <p class="tel">Tel: 123-456-7890</p>
+       </div>
+    <footer class="footer">
+    <div class="footer-logo">
+        <a href="#">
+            <h2>Mount Sleet</h2>
+            <span>Winter Tours</span>
+        </a>
+    </div>
+
+    <div class="footer-nav">
+        <a href="../pages/about.html">About</a>
+        <a href="./trails.html">Trails</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./contact.html">Contact</a>
+    </div>
+
+     <div class="footer-links">
+        <a href="../pages/privacy.html">Privacy Policy</a>
+        <a href="../pages/terms.html">Terms-Conditions</a>
+        <a href="../pages/shipping.html">Shipping Policy</a>
+        <a href="../pages/refund.html">Refund Policy</a>
+        <a href="#accessibility">Accessibility Statement</a>
+    </div>
+
+    <div class="footer-social">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <p>© 2035 by Adventure Tour Company.  Wix</p>
+        <p> Powered and secured by Wix <a href="https://www.wix.com/">Wix</a></p>
+    </div>
+
+    <div class="footer-button">
+        <a href="#booking">Book Now</a>
+    </div>
+</footer>
+     <script>
+    function openMenu() {
+        document.getElementById("menu").classList.toggle("show");
+    }
+</script>
+    
+</body>
+</html>

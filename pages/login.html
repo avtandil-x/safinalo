@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+      <header>
+        <div class="logo">
+            <a class="a1" href="../index.html">Mount Sleet</a><br>
+            <a class="a2" href="../index.html">Winter Tours</a>
+        </div>
+
+        <nav id="menu">
+            <a href="../pages/about.html">About</a>
+            <a href="../pages/trails.html">Trails</a>
+            <a href="../pages/blog.html">Blog</a>
+            <a class="contact" href="../pages/contact.html">Contact</a>
+        </nav>
+
+        <div class="login">
+            <div class="user-icon">
+                <div class="user-head"></div>
+                <div class="user-body"></div>
+            </div>
+            <a class="login1" href="../pages/login.html">Log In</a>
+        </div>
+       <button class="burger" onclick="openMenu()">☰</button>
+    </header>
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Log In</h1>
+        <p>Join us for your next adventure!</p>
+
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="Enter your first name" required>
+
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter your last name" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <button class="Submit">Submit</button>
+        </form>
+    </div>
+<script>
+        function openMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+
+
+</body>
+</html>

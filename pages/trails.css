@@ -1,0 +1,470 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img.png/dddfa6c08c5b420cbbd997a8422b6f57.avif);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+header {
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    width: 80%;
+    max-width: 1200px;
+    min-height: 72px;
+    background-color: black;
+    margin: 16px auto 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 3px;
+    line-height: 1.1;
+    flex-shrink: 0;
+}
+
+.logo .a1 {
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.logo .a2 {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+nav .trails {
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: 50px;
+} .burger {
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.user-icon {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-head {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.user-body {
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px 10px 5px 5px;
+}
+
+
+
+.div1 h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 500px;
+    padding: 0 20px;
+}
+
+.div2 p {
+    width: min(600px, 90%);
+    margin: 25px auto 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.span1,
+.span2,
+.span3 {
+    margin-left: 0;
+}
+
+
+
+.div-cards {
+    width: 1400px;
+    max-width: 1900px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 100px;
+}
+
+.trail-card {
+    width: 100%;
+    min-width: 0;
+}
+
+.trail-card img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.trail-card .document1 {
+    width: 100%;
+    min-height: 220px;
+    background-color: #F0F4F8;
+    padding: 18px 12px;
+    border-radius: 0 0 5px 5px;
+}
+
+.trail-card .document1 > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.trail-card .document1 p {
+    padding: 15px 5px 0;
+    font-size: 14px;
+}
+
+.trail-card .document1 .p2,
+.trail-card .document1 .p4,
+.trail-card .document1 .p6,
+.trail-card .document1 .p8 {
+    margin-top: 5px;
+}
+
+.trail-card .document1 button {
+    margin: 18px 5px 0;
+    border: none;
+    background-color: #f45135;
+    padding: 11px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trail-card .document1 button a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #080808;
+    color: white;
+    padding: 60px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ff5733;
+}
+
+.footer-logo a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.footer-logo h2 {
+    font-size: 20px;
+}
+
+.footer-logo span {
+    font-size: 16px;
+}
+
+.footer-nav,
+.footer-links,
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-nav a,
+.footer-links a,
+.footer-social a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-social p {
+    font-size: 13px;
+}
+
+.footer-button a {
+    display: inline-block;
+    background-color: #f45135;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-button a:hover {
+    background-color: #d83b24;
+}
+
+
+
+@media (max-width: 1100px) {
+    header {
+        width: 90%;
+        gap: 20px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .login {
+        margin-right: 15px;
+        gap: 10px;
+    }
+
+    .login a {
+        font-size: 16px;
+    }
+    
+
+    .div1 h2 {
+        font-size: 70px;
+        margin-top: 400px;
+    }
+
+    .div-cards {
+        width: 90%;
+        margin: 60px auto 0;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px;
+    }
+
+    .trail-card img {
+        height: 260px;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    header {
+        width: 94%;
+        min-height: 65px;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    nav,
+    .login {
+        display: none;
+    }
+    
+
+    .div1 h2 {
+        font-size: 48px;
+        margin-top: 250px;
+    }
+
+    .div2 p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .div-cards {
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        margin-top: 50px;
+    }
+
+    .trail-card img {
+        height: 300px;
+    }
+
+    .trail-card .document1 {
+        min-height: 200px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        padding: 40px 8%;
+    }
+}
+@media (max-width: 700px){
+    header {
+        width: 94%;
+        min-height: 60px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding: 6px 12px;
+    }
+
+    .logo .a1 {
+        font-size: 19px;
+    }
+
+    .logo .a2 {
+        font-size: 14px;
+    }    header nav {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 25px;
+        z-index: 1000;
+    }
+
+    header nav.show {
+        display: flex;
+    }
+
+    header .login {
+        display: none;
+    }
+
+    header .burger {
+        display: block;
+    }
+
+    nav,
+    .login {
+        display: none;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .logo .a1 {
+        font-size: 19px;
+    }
+
+    .logo .a2 {
+        font-size: 16px;
+    }
+
+    .div1 h2 {
+        font-size: 36px;
+        margin-top: 200px;
+    }
+
+    .div2 p {
+        font-size: 14px;
+    }
+
+    .trail-card img {
+        height: 230px;
+    }
+
+    .trail-card .document1 > a {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 35px 6%;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .div1 h2 {
+        font-size: 30px;
+    }
+
+    .trail-card img {
+        height: 190px;
+    }
+
+    .trail-card .document1 {
+        padding: 15px 8px;
+    }
+}
